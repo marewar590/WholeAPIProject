@@ -31,7 +31,7 @@ def test_create_user(api_client,load_test_data):
     print(response.json())
     assert responseget.status_code==200
    # assert len(response.json())>0
-#
+#hi supriya
 def test_update_user(api_client):
     user_data={
         "name":"supriya B",
